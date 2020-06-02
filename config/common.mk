@@ -208,6 +208,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.boot.wificountrycode?=00
 
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
     procmem
