@@ -19,5 +19,4 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.pixelage.maintainer=$(PIXELAGE_MAINTAINER) \
     ro.pixelage.releasetype=$(PIXELAGE_BUILDTYPE) \
     ro.pixelage.showversion=$(PIXELAGE_SHOW_VERSION) \
-    ro.pixelage.version=$(PIXELAGE_VERSION) \
-    ro.modversion=$(PIXELAGE_VERSION)
+    ro.pixelage.version=$(PIXELAGE_VERSION)
