@@ -9,12 +9,12 @@ function check_product()
         echo "Couldn't locate the top of the tree. Try setting TOP." >&2
         return
     fi
-    if (echo -n $1 | grep -q -e "^aosp_") ; then
-        CUSTOM_BUILD=$(echo -n $1 | sed -e 's/^aosp_//g')
+    if (echo -n $1 | grep -q -e "^pixelage_") ; then
+        PIXELAGE_BUILD=$(echo -n $1 | sed -e 's/^pixelage_//g')
     else
-        CUSTOM_BUILD=
+        PIXELAGE_BUILD=
     fi
-    export CUSTOM_BUILD
+    export PIXELAGE_BUILD
 
         TARGET_PRODUCT=$1 \
         TARGET_RELEASE=$2 \
