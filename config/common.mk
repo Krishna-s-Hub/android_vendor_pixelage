@@ -276,7 +276,6 @@ PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
     CustomPixelLauncherOverlay \
     DocumentsUIOverlay \
-    NavigationBarNoHintOverlay \
     NetworkStackOverlay
 
 # Translations
