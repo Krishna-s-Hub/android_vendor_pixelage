@@ -61,10 +61,6 @@ SOONG_CONFIG_pixelageGlobalVars += \
     target_health_charging_control_charging_path
 endif
 
-SOONG_CONFIG_NAMESPACES += pixelageNvidiaVars
-SOONG_CONFIG_pixelageNvidiaVars += \
-    uses_nvidia_enhancements
-
 # Soong bool variables
 SOONG_CONFIG_pixelageGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
 SOONG_CONFIG_pixelageGlobalVars_camera_needs_client_info_lib_oplus := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS)
@@ -74,7 +70,6 @@ SOONG_CONFIG_pixelageGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRA
 SOONG_CONFIG_pixelageGlobalVars_gralloc_handle_has_ubwcp_format := $(TARGET_GRALLOC_HANDLE_HAS_UBWCP_FORMAT)
 SOONG_CONFIG_pixelageGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
 SOONG_CONFIG_pixelageGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
-SOONG_CONFIG_pixelageNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
