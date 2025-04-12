@@ -277,7 +277,8 @@ PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
     CustomPixelLauncherOverlay \
     DocumentsUIOverlay \
-    NetworkStackOverlay
+    NetworkStackOverlay \
+    PixelLauncherNoGestureHintOverlay
 
 # Translations
 CUSTOM_LOCALES += \
