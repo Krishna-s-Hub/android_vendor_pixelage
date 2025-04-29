@@ -30,8 +30,6 @@ SOONG_CONFIG_NAMESPACES += pixelageGlobalVars
 SOONG_CONFIG_pixelageGlobalVars += \
     additional_gralloc_10_usage_bits \
     bootloader_message_offset \
-    camera_needs_client_info_lib \
-    camera_needs_client_info_lib_oplus \
     camera_override_format_from_reserved \
     target_init_vendor_lib \
     target_power_libperfmgr_mode_extension_lib \
@@ -41,8 +39,6 @@ SOONG_CONFIG_pixelageGlobalVars += \
     uses_oplus_camera
 
 # Soong bool variables
-SOONG_CONFIG_pixelageGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
-SOONG_CONFIG_pixelageGlobalVars_camera_needs_client_info_lib_oplus := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS)
 SOONG_CONFIG_pixelageGlobalVars_camera_override_format_from_reserved := $(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED)
 SOONG_CONFIG_pixelageGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
 
