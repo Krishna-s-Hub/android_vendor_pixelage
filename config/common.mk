@@ -289,6 +289,10 @@ CUSTOM_LOCALES += \
     cy_GB \
     fur_IT
 
+# Expressive design
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    is_expressive_design_enabled=true
+
 # Bootanimation
 include vendor/pixelage/config/bootanimation.mk
 
