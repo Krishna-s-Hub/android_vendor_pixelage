@@ -109,16 +109,12 @@ PRODUCT_PACKAGES += \
     build-manifest
 
 # Pixelage packages
-ifeq ($(PIXELAGE_BUILDTYPE),OFFICIAL)
 PRODUCT_PACKAGES += \
     Updater
-endif
 
 # Quick Tap
-ifeq ($(TARGET_SUPPORTS_QUICK_TAP),true)
 PRODUCT_PACKAGES += \
     ColumbusService
-endif
 
 # Gamespace
 PRODUCT_PACKAGES += \
